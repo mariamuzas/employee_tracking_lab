@@ -19,6 +19,10 @@ class EmployeetrackingApplicationTests {
 	void contextLoads() {
 		Employee jenken = new Employee("Jenken", 23, "JK1234", "hello@jenkenkwok.co.uk");
 		employeeRepository.save(jenken);
+		Employee maria = new Employee("Maria", 28, "MM1234", "hello@mariamuzas.co.uk");
+		employeeRepository.save(jenken);
+		employeeRepository.save(maria);
+
 	}
 
 }

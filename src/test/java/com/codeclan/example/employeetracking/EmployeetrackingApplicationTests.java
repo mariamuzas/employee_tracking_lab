@@ -22,7 +22,5 @@ class EmployeetrackingApplicationTests {
 		Employee maria = new Employee("Maria", 28, "MM1234", "hello@mariamuzas.co.uk");
 		employeeRepository.save(jenken);
 		employeeRepository.save(maria);
-
 	}
-
 }

@@ -13,7 +13,7 @@ public class EmployeeController {
     @Autowired
     EmployeeRepository employeeRepository;
 
-    @GetMapping(value = "/employees")
+    @GetMapping(value="/employees")
     public List<Employee> getAllEmployees(){
         return employeeRepository.findAll();
     }
